@@ -1,3 +1,3 @@
-insert into user(id, username, realname, age, balance) values (1, 'account1', '张三', 20, 100.00);
-insert into user(id, username, realname, age, balance) values (2, 'account2', '李四', 29, 180.00);
-insert into user(id, username, realname, age, balance) values (3, 'account3', '王五', 32, 280.00);
+insert into user(id, username, password,realname, age, balance) values (1, 'test1', '{bcrypt}$2a$10$osXuu4A2VUDVDmCMbpKFT.CbLGKX90cVR/J9JTwdPbMfimtC3wl.u','张三', 20, 100.00);
+insert into user(id, username, password,realname, age, balance) values (2, 'test2', '{bcrypt}$2a$10$lcELacl6zUsZaLKxrGI9ve3bPaXLUrn2p8jCnOX2pDkGTzbeIlsL2','李四', 29, 180.00);
+insert into user(id, username, password,realname, age, balance) values (3, 'test3', 'test3','王五', 32, 280.00);
